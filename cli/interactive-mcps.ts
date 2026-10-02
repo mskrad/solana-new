@@ -91,7 +91,7 @@ function buildLines(
   const lines: string[] = [];
   const W = 62;
 
-  lines.push(`  ${BOLD}${CYAN}solana.new${RESET}  ${DIM}Solana MCP Servers${RESET}`);
+  lines.push(`  ${BOLD}${CYAN}solanaskills.com${RESET}  ${DIM}Solana MCP Servers${RESET}`);
   lines.push("");
 
   const topBorder = `  \u256D${"\u2500".repeat(W + 2)}\u256E`;

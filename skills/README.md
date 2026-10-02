@@ -114,7 +114,7 @@ Skills reference these automatically based on what you're learning or building.
 Install skills:
 
 ```bash
-curl -fsSL https://www.solana.new/setup.sh | bash
+curl -fsSL https://www.solanaskills.com/setup.sh | bash
 ```
 
 Then ask directly:

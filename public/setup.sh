@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # superstack — one-command install & update
-# Install: curl -fsSL https://www.solana.new/setup.sh | bash
-# Update:  curl -fsSL https://www.solana.new/setup.sh | bash -s -- --update
+# Install: curl -fsSL https://www.solanaskills.com/setup.sh | bash
+# Update:  curl -fsSL https://www.solanaskills.com/setup.sh | bash -s -- --update
 set -euo pipefail
 
 # --- Branding ---
 PRODUCT_NAME="superstack"
-BASE_URL="https://www.solana.new"
+BASE_URL="https://www.solanaskills.com"
 
 # --- Colors ---
 RED='\033[0;31m'
@@ -477,14 +477,14 @@ EOF
   local NAME_D=$(_f "$PASS_NAME" $VAL_W) ISS_D=$(_f "$PASS_ISSUED" $VAL_W)
   local CLS_D=$(_f "FOUNDING  BUILDER" $VAL_W) LVL_D=$(_f "◆  ${GH_DISPLAY}" $VAL_W)
   local S1=$(_f "○ IDEA" 10) S2=$(_f "○ BUILD" 10) S3=$(_f "○ SHIP" 10)
-  local OL=$(_f "SUPERTEAM" 18) OM=$(_fc "solana.new" 16)
+  local OL=$(_f "SUPERTEAM" 18) OM=$(_fc "solanaskills.com" 16)
   local ST="╭───────╮" SA="│ $(_fc "$SEAL_T" 5) │" SD="│ $(_fc "$SEAL_M" 5) │"
   local SY="│ $(_fc "$SEAL_B" 5) │" SB="╰───────╯"
 
   echo ""
   printf "  ${D}      "; _rep "╌ " 34; printf "${R}\n"
   printf "  ${GD}╔"; _rep "═" $SW; printf "╕ ╔"; _rep "═" $MW; printf "╗ ╕"; _rep "═" $SW; printf "╗${R}\n"
-  _L '' '│'; _rowlr " ${GB}◆ SOLANA·NEW  |  FOUNDER PASS${R}${BG}" "${GD}N° ${PASS_NO_FMT}${R}${BG} "; _R '' '│'
+  _L '' '│'; _rowlr " ${GB}◆ SOLANASKILLS  |  FOUNDER PASS${R}${BG}" "${GD}N° ${PASS_NO_FMT}${R}${BG} "; _R '' '│'
   _L '' '│'; _row " ${GK}$(_rep '┄' $((MW-2)))${R}${BG} "; _R '' '│'
   _L '' '╯'; _row "$(_f '' $MW)"; _R '' '╰'
   _L 'S' ' '; _row " ${GK}NAME  ${GK}····· ${GB}${NAME_D}${R}${BG}"; _R '' ' '

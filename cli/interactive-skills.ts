@@ -132,7 +132,7 @@ function buildLines(
   const lines: string[] = [];
   const W = 62;
 
-  lines.push(`  ${BOLD}${CYAN}solana.new${RESET}  ${DIM}Solana Skills — official & community${RESET}`);
+  lines.push(`  ${BOLD}${CYAN}solanaskills.com${RESET}  ${DIM}Solana Skills — official & community${RESET}`);
   lines.push("");
 
   const topBorder = `  ╭${"─".repeat(W + 2)}╮`;

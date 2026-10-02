@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ─────────────────────────────────────────────────────────
-#  SOLANA·NEW — Founder Pass  ·  Terminal Welcome Screen
+#  SOLANASKILLS — Founder Pass  ·  Terminal Welcome Screen
 #
 #  Usage: bash solana-pass.sh [theme]
 #  Themes: gold (default), blue, cyber, royal, obsidian, platinum
@@ -161,7 +161,7 @@ STAMP_2="○ BUILD"
 STAMP_3="○ SHIP"
 TAGLINE="you're now a certified agentic engineer on solana"
 ORG_L="SUPERTEAM"
-ORG_M="solana.new"
+ORG_M="solanaskills.com"
 ORG_R="SendAI"
 _seal_parts
 
@@ -358,7 +358,7 @@ ROWS+=("$(printf "  ${D}      "; rep "╌ " 34; printf "${R}")")
 ROWS+=("$(printf "  ${GD}╔"; rep "═" $SW; printf "╕ ╔"; rep "═" $MW; printf "╗ ╕"; rep "═" $SW; printf "╗${R}")")
 
 # Row 0: brand
-ROWS+=("$(_L '' '│'; rowlr " ${GB}◆ SOLANA·NEW  |  FOUNDER PASS${R}${BG}" "${GD}N° ${PASS_NO_FMT}${R}${BG} "; _bR '' '│')")
+ROWS+=("$(_L '' '│'; rowlr " ${GB}◆ SOLANASKILLS  |  FOUNDER PASS${R}${BG}" "${GD}N° ${PASS_NO_FMT}${R}${BG} "; _bR '' '│')")
 
 # Row 1: dotted
 ROWS+=("$(_L '' '│'; row " ${GK}$(rep '┄' $((MW-2)))${R}${BG} "; _bR '' '│')")

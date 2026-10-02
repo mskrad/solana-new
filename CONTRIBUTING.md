@@ -1,6 +1,6 @@
 # Contributing to superstack
 
-superstack is the open-source platform behind [solana.new](https://solana.new) —
+superstack is the open-source platform behind [solanaskills.com](https://solanaskills.com) —
 25 journey skills, 106 repos, 78 ecosystem skills, and 36 MCP servers that take
 builders from idea to shipped product on Solana.
 
